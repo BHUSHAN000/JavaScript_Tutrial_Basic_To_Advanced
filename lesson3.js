@@ -4,7 +4,7 @@ var rollNo = 1;         // Integer
 var marks = 99.99;      // Floating point number
 
 
-let temp = Infinity;
+let temp1 = Infinity;
 let temp2 = -Infinity;
 
 let temp3 = "Hell0" / 2;
@@ -56,9 +56,9 @@ const isInvalid = false;
 console.log(typeof isValid);
 console.log(typeof isInvalid);
 
-const result = 10 < 20;
-console.log(result);
-console.log(typeof result);
+const result2 = 10 < 20;
+console.log(result2);
+console.log(typeof result2);
 
 // null datatype
 
@@ -68,9 +68,9 @@ console.log(temp)
 console.log(typeof temp)
 
 // undefined datatype
-let temp2;
-console.log(temp2)
-console.log(typeof temp2)
+let temp4;
+console.log(temp4)
+console.log(typeof temp4)
 
 
 //Excersise
