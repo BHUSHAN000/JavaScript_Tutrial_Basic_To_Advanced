@@ -33,7 +33,7 @@ console.log(age);
 //1. var
 
 var firstName = 'John';     // global scope
-function display() {
+function display1() {
     var firstName = 'Mike'; // function scope
     {
         var firstName = 'Smith'; // block scope
@@ -44,12 +44,12 @@ function display() {
 }
 
 console.log("Global scope",firstName);
-display();
+display1();
 
 //2. let
 
 let schoolName = "John"; // global scope
-function display() {
+function display2() {
   let schoolName = "Mike"; // function scope
   {
     let schoolName = "Smith"; // block scope
@@ -59,13 +59,13 @@ function display() {
 }
 
 console.log("Global scope", schoolName);
-display();
+display2();
 
 
 //3. const
 
 const stateName = "John"; // global scope
-function display() {
+function display3() {
   const stateName = "Mike"; // function scope
   {
     const stateName = "Smith"; // block scope
@@ -75,7 +75,7 @@ function display() {
 }
 
 console.log("Global scope", lastName);
-display();
+display3();
 
 
 // hoisting of var, let and const
