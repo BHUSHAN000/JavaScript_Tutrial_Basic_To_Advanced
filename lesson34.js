@@ -98,4 +98,4 @@ let myName = `Bhushan Pawar`
 
 console.log(`hello ${myName}`)
 console.log(`hello ${myName.toUpperCase()}`)
-console.log(`hello ${20     + 30}`)
+console.log(`hello ${20 + 30}`)
