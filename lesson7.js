@@ -47,7 +47,7 @@ console.log(!!temp3); // not not operator
 let a = 0;
 
 console.log(!a) // 0 is a falsy value
-console.log(!!a)    // 0 is a falsy value so !!a is a truthy value
+console.log(!!a)    // 0 is a falsy value so !!a is a falsy value
 
 //nullish coalescing operator (??) => to check value is null or undefined
 
