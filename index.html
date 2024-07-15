@@ -4,7 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-  
+  <style>
+       .outerClass {
+        height: 200px;
+        width:300px;
+        background-color: lightsteelblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .innerClass{
+      height: 150px;
+      width: 200px;
+      background-color: greenyellow;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+    
+    .childDiv{
+      height: 30px;
+      width: 30px;
+      margin: 3px;
+      background-color: lightcoral;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
 </head>
 <body>
     <h1 id="headingId1">Welcome to Javascript Series</h1>
@@ -30,6 +58,17 @@
 
  <button id="btnId">Click me</button>
 
+
+    <div class="outerClass">
+      Outer
+      <div class="innerClass">
+        Inner
+        <div class="childDiv">A</div>
+        <div class="childDiv">B</div>
+        <div class="childDiv">C</div>
+        <div class="childDiv">D</div>
+      </div>
+    </div>
     <script src="lesson65.js"></script>
 </body>
 </html>
