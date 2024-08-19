@@ -1,19 +1,35 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
-  <style>
-       .outerClass {
-        height: 200px;
+    <style>
+     .outerClass {
+        height: 170px;
         width:300px;
         background-color: lightsteelblue;
         display: flex;
         justify-content: center;
         align-items: center;
+        border-bottom: 1px solid black;
      }
-
+    .outerClass1 {
+        height: 100px;
+        width:150px;
+        background-color: lightsteelblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+     }
+     .outerClass2 {
+          height: 100px;
+        width:150px;
+        background-color: lightgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
      .innerClass{
       height: 150px;
       width: 200px;
@@ -32,42 +48,34 @@
       justify-content: center;
       align-items: center;
     }
-  </style>
-</head>
-<body>
-    <h1 id="headingId1">Welcome to Javascript Series</h1>
-
-    <ul>
-        <li class="listClass1">HTML</li>
-        <li class="listClass1">CSS</li>
-        <li class="listClass1">JavaScript</li>
-        <li class="listClass2">React</li>
-        <li class="listClass3">Node</li>
-    </ul>
-    <div id="containerId">
-        <h1 id="headingId" class="headingClass1 headingClass2">Hello From Javascript series</h1>
-        <p id="paraId">Welcome to the world of JS</p>
-          <ul id="listId" class="ulListClass">
-            <li id='list1' class="listClass1 listClass2" name="name1">Javascript</li>
-            <li id='list2' class="listClass1 listClass3">TypeScript</li>
-            <li id='list3' class="listClass2 listClass3">React</li>
-          </ul>
-        <h2 class="listClass2">Hello Guys</h2>
-    </div>
-
-
- <button id="btnId">Click me</button>
-
-
-   <div class="outerClass">Outer
-      <div class="innerClass">Inner
+    </style>
+  </head>
+  <body>
+    
+    <div class="outerClass">
+      <div class="innerClass" id="">
         <div class="childDiv" id="AElement">A</div>
         <div class="childDiv" id="BElement">B</div>
         <div class="childDiv" id="CElement">C</div>
         <div class="childDiv" id="DElement">D</div>
+        <div class="childDiv" id="EElement"></div>
       </div>
-      <p>Hello</p>
     </div>
-    <script src="lesson65.js"></script>
-</body>
+
+
+
+    <div id="newdiv">
+
+    </div>
+    
+
+    <!-- <div class="outerClass1">
+      <div class="childDiv">Hi</div>
+    </div>
+    <div class="outerClass2">
+      
+    </div> -->
+  
+    <script src="lesson83.js"></script>
+  </body>
 </html>
